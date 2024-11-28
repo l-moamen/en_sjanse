@@ -1,0 +1,116 @@
+[
+    {
+        "id": 1,
+        "name": "Rock Arena",
+        "city": "New York",
+        "country": "USA",
+        "description": "A large outdoor venue perfect for rock concerts.",
+        "address": "123 Main Street, Brooklyn",
+        "pictures": [
+            "venue_assets/1/rock_arena1.jpg",
+            "venue_assets/1/rock_arena2.jpg"
+        ],
+        "specs": {
+            "soundSystem": "Dolby Surround",
+            "lightSystem": "High-Intensity LED",
+            "capacity": 5000
+        },
+        "preferences": [
+            {
+                "genre": "Rock, Metal",
+                "theme": "Festival"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Jazz Lounge",
+        "city": "Paris",
+        "country": "France",
+        "description": "An intimate venue for jazz and blues enthusiasts.",
+        "address": "12 Rue des Arts",
+        "pictures": [
+            "venue_assets/2/jazz_lounge1.jpg",
+            "venue_assets2/jazz_lounge2.jpg"
+        ],
+        "specs": {
+            "soundSystem": "Premium Acoustic",
+            "lightSystem": "Soft Mood Lighting",
+            "capacity": 150
+        },
+        "preferences": [
+            {
+                "genre": "Jazz, Blues",
+                "theme": "Elegant"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Electronic Beats Club",
+        "city": "Berlin",
+        "country": "Germany",
+        "description": "A vibrant club for electronic dance music lovers.",
+        "address": "Unter den Linden 23",
+        "pictures": [
+            "venue_assets/3/edm_club1.jpg",
+            "venue_assets/3/edm_club2.jpg"
+        ],
+        "specs": {
+            "soundSystem": "Pioneer Pro Audio",
+            "lightSystem": "Laser Show",
+            "capacity": 800
+        },
+        "preferences": [
+            {
+                "genre": "EDM, Techno",
+                "theme": "Rave"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Classical Hall",
+        "city": "Vienna",
+        "country": "Austria",
+        "description": null,
+        "address": null,
+        "pictures": null,
+        "specs": null,
+        "preferences": null
+    },
+    {
+        "id": 5,
+        "name": "Indie Stage",
+        "city": "Austin",
+        "country": "USA",
+        "description": null,
+        "address": null,
+        "pictures": null,
+        "specs": null,
+        "preferences": null
+    },
+    {
+        "id": 6,
+        "name": "New Venue",
+        "city": "New York",
+        "country": "USA",
+        "description": "A cool place for music and events.",
+        "address": "123 Music Street, NY",
+        "pictures": [
+            "venue1.jpg",
+            "venue2.jpg"
+        ],
+        "specs": {
+            "soundSystem": "High-end",
+            "lightSystem": "LED",
+            "capacity": 500
+        },
+        "preferences": [
+            {
+                "genre": "Rock",
+                "theme": "Live Concert"
+            }
+        ]
+    }
+]
