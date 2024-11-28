@@ -1,0 +1,150 @@
+[
+    {
+        "id": 1,
+        "display_name": "DJ Jazzy Jeff",
+        "name": "Rock Arena 2",
+        "city": "Oslo",
+        "country": null,
+        "description": null,
+        "address": null,
+        "pictures": null,
+        "equipment": {
+            "instruments": [
+                "Turntables",
+                "CDJ"
+            ],
+            "soundSystem": "Pioneer DJ Sound",
+            "lightSystem": "LED Lighting"
+        },
+        "covered_genres": null,
+        "contact_info": {
+            "email": "jazzyjeff@example.com",
+            "main_phone": "111-222-3333",
+            "extra_phone": "444-555-6666"
+        },
+        "socials": {
+            "last_fm": null,
+            "spotify": "https://spotify.com/djjazzyjeff",
+            "snap_chat": null,
+            "instagram": "https://instagram.com/djjazzyjeff",
+            "tiktok": null,
+            "others": null
+        }
+    },
+    {
+        "id": 2,
+        "display_name": "DJ Snake",
+        "name": null,
+        "city": null,
+        "country": null,
+        "description": null,
+        "address": null,
+        "pictures": null,
+        "equipment": {
+            "instruments": [
+                "Synthesizers",
+                "Samplers"
+            ],
+            "soundSystem": "Bose Professional",
+            "lightSystem": "High-intensity LED"
+        },
+        "covered_genres": null,
+        "contact_info": {
+            "email": "djsnake@example.com",
+            "main_phone": "555-666-7777",
+            "extra_phone": null
+        },
+        "socials": {
+            "last_fm": null,
+            "spotify": "https://spotify.com/djsnake",
+            "snap_chat": null,
+            "instagram": "https://instagram.com/djsnake",
+            "tiktok": null,
+            "others": null
+        }
+    },
+    {
+        "id": 3,
+        "display_name": "The Rolling Stones",
+        "name": null,
+        "city": null,
+        "country": null,
+        "description": null,
+        "address": null,
+        "pictures": null,
+        "equipment": {
+            "instruments": [
+                "Guitar",
+                "Drums",
+                "Bass",
+                "Keyboard"
+            ],
+            "soundSystem": "Marshall Amps",
+            "lightSystem": "Stage Pro Lighting"
+        },
+        "covered_genres": null,
+        "contact_info": {
+            "email": "rollingstones@example.com",
+            "main_phone": "888-999-0000",
+            "extra_phone": null
+        },
+        "socials": {
+            "last_fm": null,
+            "spotify": "https://spotify.com/therollingstones",
+            "snap_chat": null,
+            "instagram": "https://instagram.com/rollingstones",
+            "tiktok": null,
+            "others": null
+        }
+    },
+    {
+        "id": 4,
+        "display_name": "John Doe (Solo Performer)",
+        "name": null,
+        "city": null,
+        "country": null,
+        "description": null,
+        "address": null,
+        "pictures": null,
+        "equipment": null,
+        "covered_genres": null,
+        "contact_info": {
+            "email": "johndoe@example.com",
+            "main_phone": "123-456-7890",
+            "extra_phone": null
+        },
+        "socials": {
+            "last_fm": null,
+            "spotify": "https://spotify.com/johndoe",
+            "snap_chat": null,
+            "instagram": null,
+            "tiktok": null,
+            "others": null
+        }
+    },
+    {
+        "id": 5,
+        "display_name": "Comedy King Mike",
+        "name": null,
+        "city": "Oslo",
+        "country": null,
+        "description": null,
+        "address": null,
+        "pictures": null,
+        "equipment": null,
+        "covered_genres": null,
+        "contact_info": {
+            "email": "comedymike@example.com",
+            "main_phone": "777-888-9999",
+            "extra_phone": null
+        },
+        "socials": {
+            "last_fm": null,
+            "spotify": null,
+            "snap_chat": null,
+            "instagram": "https://instagram.com/comedymike",
+            "tiktok": null,
+            "others": null
+        }
+    }
+]
