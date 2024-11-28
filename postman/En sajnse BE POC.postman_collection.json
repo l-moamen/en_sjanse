@@ -1,0 +1,299 @@
+{
+	"info": {
+		"_postman_id": "42d163c9-36ca-4ed1-a066-3cfc787e924d",
+		"name": "En sajnse BE POC",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39886417"
+	},
+	"item": [
+		{
+			"name": "Venues",
+			"item": [
+				{
+					"name": "GetVenues",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetVenuesByCity",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/city/Paris",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"city",
+								"Paris"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetVenuesById",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "AddVenue",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"New Venue\",\n    \"city\": \"New York\",\n    \"country\": \"USA\",\n    \"description\": \"A cool place for music and events.\",\n    \"address\": \"123 Music Street, NY\",\n    \"pictures\": [\"venue1.jpg\", \"venue2.jpg\"],\n    \"specs\": {\n        \"soundSystem\": \"High-end\",\n        \"lightSystem\": \"LED\",\n        \"capacity\": 500\n    },\n    \"preferences\": {\n        \"genre\": \"Rock\",\n        \"theme\": \"Live Concert\"\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/add",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"add"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateVenue",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n        \"id\": 1,\n        \"name\": \"Rock Arena 2\",\n        \"city\": \"New York\",\n        \"country\": \"USA\",\n        \"description\": \"A large outdoor venue perfect for rock concerts.\",\n        \"address\": \"123 Main Street, Brooklyn\",\n        \"pictures\": [\n            \"venue_assets/1/rock_arena1.jpg\", \n            \"venue_assets/1/rock_arena2.jpg\"\n        ],\n        \"specs\": {\n          \"soundSystem\": \"Dolby Surround\",\n          \"lightSystem\": \"High-Intensity LED\",\n          \"capacity\": 5000\n        },\n        \"preferences\": {\n          \"genre\": \"Rock, Metal\",\n          \"theme\": \"Festival\"\n        }\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/1",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteVenue",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"New Venue\",\n  \"city\": \"New York\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/1",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "performer",
+			"item": [
+				{
+					"name": "GetPerformers",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetPerformerByCity",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/city/Paris",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"city",
+								"Paris"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetPerformerById",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "AddPerfromer",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"New Venue\",\n    \"city\": \"New York\",\n    \"country\": \"USA\",\n    \"description\": \"A cool place for music and events.\",\n    \"address\": \"123 Music Street, NY\",\n    \"pictures\": [\"venue1.jpg\", \"venue2.jpg\"],\n    \"specs\": {\n        \"soundSystem\": \"High-end\",\n        \"lightSystem\": \"LED\",\n        \"capacity\": 500\n    },\n    \"preferences\": {\n        \"genre\": \"Rock\",\n        \"theme\": \"Live Concert\"\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/add",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"add"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "UpdatePerformer",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Rock Arena 2\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/performers/1",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"performers",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deletePerformer",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"New Venue\",\n  \"city\": \"New York\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/1",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
